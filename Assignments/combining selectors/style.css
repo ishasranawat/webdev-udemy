@@ -1,0 +1,16 @@
+
+h1,h2{              /* combining selectors */
+  color:blueviolet;
+}
+
+.box > p{             /*parent child */
+  color: firebrick
+}
+
+.box li{             /* descendant */
+  color:blue;
+}
+
+li.done{            /*chaining */
+  color:seagreen
+}
