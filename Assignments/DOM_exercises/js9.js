@@ -10,7 +10,8 @@ button.innerHTML="Click Me";
 document.querySelector('input').setAttribute('placeholder','username');
 document.querySelector('button').id="btn";
 
-Qs3.Access the btn using the query Selector and button id. Change the button background color to blue and textcolor to white.
+
+//Qs3.Access the btn using the query Selector and button id. Change the button background color to blue and textcolor to white.
 document.getElementById('btn').style.backgroundColor="blue";
 document.getElementById('btn').style.color="white";
 
