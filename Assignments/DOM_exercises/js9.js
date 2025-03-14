@@ -6,7 +6,7 @@ document.querySelector('body').appendChild(input);
 button.innerHTML="Click Me";
 
 
-Qs2.Addfollowingattributestotheelement:-Changeplaceholdervalueofinputto“username”-Changetheidofbuttonto“btn”.
+//Qs2. Add following attributes to the element:- Change placeholder value of input to “username” -Change the id of button to “btn”.
 document.querySelector('input').setAttribute('placeholder','username');
 document.querySelector('button').id="btn";
 
