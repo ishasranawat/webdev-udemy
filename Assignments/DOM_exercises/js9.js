@@ -6,7 +6,7 @@ document.querySelector('body').appendChild(input);
 button.innerHTML="Click Me";
 
 
-Qs2.Addfollowingattributestotheelement:-Changeplaceholdervalueofinputto“username”-Changetheidofbuttonto“btn”Qs3.AccessthebtnusingthequerySelectorandbuttonid.Changethebuttonbackgroundcolortoblueandtextcolortowhite.Qs4.Createanh1elementonthepageandsetitstextto“DOMPractice”underlined.Changeitscolortopurple.Qs5.Createaptagonthepageandsetitstextto“ApnaCollegeDeltaPractice”,whereDeltaisbold.ishasinghranawat@gmail.com
+Qs2.Addfollowingattributestotheelement:-Changeplaceholdervalueofinputto“username”-Changetheidofbuttonto“btn”Qs3.AccessthebtnusingthequerySelectorandbuttonid.Changethebuttonbackgroundcolortoblueandtextcolortowhite.Qs4.Createanh1elementonthepageandsetitstextto“DOMPractice”underlined.Changeitscolortopurple.
 document.querySelector('input').setAttribute('placeholder','username');
 document.querySelector('button').id="btn";
 
@@ -22,7 +22,7 @@ lasth1.style.color="purple";
 lasth1.style.textDecoration="underline";
 
 
-
+Qs5.Create a p tag on the page and set its text to “
 let paraa=document.createElement('p');
 document.querySelector('body').appendChild(paraa);
 paraa.innerHTML="My Dom <em> Practice. </em>";
