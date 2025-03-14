@@ -6,7 +6,7 @@ document.querySelector('body').appendChild(input);
 button.innerHTML="Click Me";
 
 
-
+Qs2.Addfollowingattributestotheelement:-Changeplaceholdervalueofinputto“username”-Changetheidofbuttonto“btn”Qs3.AccessthebtnusingthequerySelectorandbuttonid.Changethebuttonbackgroundcolortoblueandtextcolortowhite.Qs4.Createanh1elementonthepageandsetitstextto“DOMPractice”underlined.Changeitscolortopurple.Qs5.Createaptagonthepageandsetitstextto“ApnaCollegeDeltaPractice”,whereDeltaisbold.ishasinghranawat@gmail.com
 document.querySelector('input').setAttribute('placeholder','username');
 document.querySelector('button').id="btn";
 
