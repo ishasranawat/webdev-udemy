@@ -9,7 +9,6 @@ while(true){
     console.log("You quit the game.");
     break;
   }
-
   if (guess==random){
   console.log("Congratulations! You won.");
   break;
@@ -19,5 +18,4 @@ while(true){
   guess= prompt("Hint: Your guess was too big. Think smaller.");
 }
 guess = prompt("Guess again");
-
 }
