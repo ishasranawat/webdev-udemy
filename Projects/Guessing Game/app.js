@@ -2,7 +2,7 @@ let max= prompt("enter the maximum number");
 
 let random= Math.floor(Math.random()* max+1);
 
-let guess= prompt("Guess the number");
+let guess= prompt("guess the number");
 
 while(true){
   if(guess=="quit"){
@@ -10,11 +10,14 @@ while(true){
     break;
   }
 
-  if (random==guess){
-  console.log("Congrats! You won");
+  if (guess==random){
+  console.log("Congratulations! You won.");
   break;
+} else if (guess < random){
+  guess= prompt("Hint: Your guess was too small. Think bigger.");
+} else {
+  guess= prompt("Hint: Your guess was too big. Think smaller.");
 }
-  else{
-  guess= prompt("Your guess was incorrect, try again.")
-}
+guess = prompt("Guess again");
+
 }
