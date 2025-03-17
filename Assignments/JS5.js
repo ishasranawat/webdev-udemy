@@ -3,7 +3,7 @@ let dice= (Math.floor(Math.random()*6 +1));
 console.log(dice);
 
 
-//Qs2.Createanobjectrepresentingacarthatstoresthefollowingpropertiesforthecar:name,model,color.Printthecar’sname.
+//Qs2.Create an object representing a car that stores the following properties for the car :name, model, color. Print the car’s name.
 const car= {
   name: "porsche",
   model: "911",
