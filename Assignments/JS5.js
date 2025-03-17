@@ -17,7 +17,6 @@ const person= {
   age: "22",
   city: "udaipur" 
 }
-undefined
 person.city="new york"
 'new york'
 person
