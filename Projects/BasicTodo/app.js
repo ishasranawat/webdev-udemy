@@ -6,7 +6,6 @@ while(true) {
     break;
   }
 
-
   if (req== "list"){
     console.log("------------");
     for(let i =0; i<todo.length; i++){
