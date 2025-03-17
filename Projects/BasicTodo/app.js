@@ -23,5 +23,4 @@ while(true) {
   } else{
     console.log("invalid input");
   }
-
 }
