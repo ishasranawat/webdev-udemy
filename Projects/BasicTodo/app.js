@@ -1,5 +1,4 @@
 let todo= [];
-
 while(true) {
   let req= prompt("please enter your request");
   if (req== "quit") {
