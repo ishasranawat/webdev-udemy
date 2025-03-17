@@ -11,7 +11,7 @@ const car= {
 }
 
 
-//Q3. CreateanobjectPersonwiththeirname,ageandcity.Edittheircity’soriginalvaluetochangeitto“NewYork”.AddanewpropertycountryandsetittotheUnitedState
+//Q3. Create an object Person with their name, age and city. Edit their city’s original value to change it to “NewYork”. Add a new property country and set it to the United State
 const person= {
   name: "Isha",
   age: "22",
