@@ -9,3 +9,18 @@ const car= {
   model: "911",
   color: "black"
 }
+
+const person= {
+  name: "Isha",
+  age: "22",
+  city: "udaipur" 
+}
+undefined
+person.city="new york"
+'new york'
+person
+{name: 'Isha', age: '22', city: 'new york'}
+person.country="usa"
+'usa'
+person
+{name: 'Isha', age: '22', city: 'new york', country: 'usa'}
