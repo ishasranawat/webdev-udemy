@@ -15,7 +15,7 @@ fs.readFile("message.txt","utf8", (err, data) => {
 
 /------------------npm package-----------------------------/
 var generateName= require ("sillyname");  //for CJS (the "type" : "commonjs" in JSON file)
- import generateName from "sillyname";
+ import generateName from "sillyname";   //for ESM ("type" : "module")
  var sillyName= generateName();
 
  console.log(`My name is ${sillyName}`);
