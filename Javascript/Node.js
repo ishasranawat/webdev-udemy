@@ -1,3 +1,4 @@
+/------------------TO read and write------------------------/
 //To write in a file
 const fs= require("fs");
 fs.writeFile("message.txt", "HEllo from NodeJS!", (err) => {
@@ -10,3 +11,12 @@ fs.readFile("message.txt","utf8", (err, data) => {
   if (err) throw err;
   console.log(data);
 }); 
+
+
+/------------------npm package-----------------------------/
+var generateName= require ("sillyname");
+ import generateName from "sillyname";
+ var sillyName= generateName();
+
+ console.log(`My name is ${sillyName}`);
+
