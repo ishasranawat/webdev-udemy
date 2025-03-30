@@ -1,0 +1,21 @@
+body{
+  background-color: bisque;
+  display: flex;
+
+}
+
+.box{
+  background-color: aquamarine;
+
+}
+
+
+button{
+  background-color: salmon;
+  border-radius: 2px;
+
+}
+
+button:hover{
+  background-color: rgb(222, 104, 143);
+}
